@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#797977"
+    android:orientation="vertical"
+    tools:context="com.example.fondn.tryfragment.One">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/oneTextViewID"
+        android:text="One"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:id="@+id/editTextOneID"
+        android:layout_width="match_parent"
+        android:textSize="35dp"
+        android:hint="Write Something"
+        android:textColor="#fff"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/oneButtonID"
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

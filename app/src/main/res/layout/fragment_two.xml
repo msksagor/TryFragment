@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#44F"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.fondn.tryfragment.Two">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <TextView
+        android:text="Result Here"
+        android:textColor="#fff"
+        android:textSize="35dp"
+        android:id="@+id/twoResultTextViewID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:text="Two"
+        android:id="@+id/twoTextviewID"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textColor="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
